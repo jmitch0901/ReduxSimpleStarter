@@ -2,6 +2,7 @@ module.exports = {
   entry: [
     './src/index.js'
   ],
+  devtool:'source-maps',
   output: {
     path: __dirname,
     publicPath: '/',
